@@ -32,3 +32,16 @@ $("input[type='text']").keypress(function(event){
 $(".fa-minus").on("click", function(){
     $("input").fadeToggle();
 })
+
+//******************* Targets the button and changes the background color */
+
+// Target the button 
+
+$("button").click(function(event){
+
+
+    $("body").toggleClass("backgroundColors");
+
+
+});
+ 
