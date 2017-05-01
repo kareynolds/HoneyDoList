@@ -39,15 +39,18 @@ li:hover span {
     width: 360px;
     margin: 100px auto;
     background: #f7f7f7;
+    margin-bottom: 0px;
 }
 
 body {
     font-family: 'Roboto', sans-serif;
+            
+}
 
+.body {
     background: #2980b9; /* fallback for old browsers */
     background: -webkit-linear-gradient(to left, #2980b9 , #2c3e50); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to left, #2980b9 , #2c3e50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-            
 }
 
 .completed {
@@ -87,4 +90,34 @@ input:focus {
     background: white;
     border: 3px solid #2980b9;
     outline: none;
+}
+
+#gradient {
+    margin: 100px auto;
+    width: 360px;
+    margin-top: 0px;
+
+}
+
+#gradientButton {
+    box-shadow: 0 0 3px rgba(0, 0, 0, .1);
+    background: #f7f7f7;
+    border: 3px solid rgba(0, 0, 0 , 0);
+    height: 40px;
+    color: white;
+    width: 100%;
+    margin-top: 0px;
+    background-color: #2980b9;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+}
+
+.backgroundColors {
+
+background: #2b5876;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4e4376, #2b5876);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4e4376, #2b5876); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
