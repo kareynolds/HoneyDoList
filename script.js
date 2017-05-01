@@ -29,10 +29,18 @@ $("input[type='text']").keypress(function(event){
 
 
 // ******   targets the hyphen and makes it fade when clicked *****
-$(".fa-minus").on("click", function(){
+$(".fa-minus").click(function(){
     $("input").fadeToggle();
 })
 
+
+//*************** Make the button bounce when hovered */
+
+
+$("button").hover(function(){
+    $("button").toggleClass("hvr-bob");
+})
+=======
 //******************* Targets the button and changes the background color */
 
 // Target the button 
