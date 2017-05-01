@@ -32,3 +32,19 @@ $("input[type='text']").keypress(function(event){
 $(".fa-minus").on("click", function(){
     $("input").fadeToggle();
 })
+
+//******************* Targets the button and changes the background color */
+
+
+$("button").click(function(event){
+    $("body").toggleClass("backgroundColors");
+});
+ 
+
+ 
+//*************** Make the button text bounce when hovered */
+
+
+$("button").hover(function(){
+    $("button").toggleClass("hvr-bob");
+})
