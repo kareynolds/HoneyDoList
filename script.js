@@ -34,21 +34,22 @@ $(".fa-minus").click(function(){
 })
 
 
-
-//******************* Targets the button and changes the background color */
-
-// Target the button 
-// when the button is clicked event happens
-
-$("button").click(function(event){
-    $("body").toggleClass("backgroundColors");
-});
- 
-
-
 //*************** Make the button bounce when hovered */
 
 
 $("button").hover(function(){
     $("button").toggleClass("hvr-bob");
 })
+=======
+//******************* Targets the button and changes the background color */
+
+// Target the button 
+
+$("button").click(function(event){
+
+
+    $("body").toggleClass("backgroundColors");
+
+
+});
+ 
