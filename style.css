@@ -43,8 +43,7 @@ li:hover span {
 }
 
 body {
-
-    font-family: 'Roboto', sans-serif
+    font-family: 'Roboto', sans-serif;
             
 }
 
@@ -56,7 +55,8 @@ body {
 
 .completed {
     color: gray;
-    text-decoration: line-through
+    text-decoration: line-through;
+}
 
 ul {
     list-style: none;
@@ -123,6 +123,7 @@ background: linear-gradient(to right, #4e4376, #2b5876); /* W3C, IE 10+/ Edge, F
 }
 
 
+
 /* Bob */
 @-webkit-keyframes hvr-bob {
   0% {
@@ -187,4 +188,6 @@ background: linear-gradient(to right, #4e4376, #2b5876); /* W3C, IE 10+/ Edge, F
   -webkit-animation-direction: normal, alternate;
   animation-direction: normal, alternate;
 }
+
+
 
